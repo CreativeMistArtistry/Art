@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Creative Mist Artistry</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="wrap header">
+  <a class="logo" href="index.html">Creative Mist Artistry</a>
+  <nav class="nav">
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="wrap rule"></div>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="kicker">Selected Originals By Candace</p>
+      <h1 class="h1">Landscapes and Abstracts</h1>
+      <p class="lede">
+        A curated selection of original paintings on canvas. New pieces appear when they're ready.
+        <br>
+        <br>
+        Inquire by email for prints, commmissions, order details, and more.
+      </p>
+
+      
+    </div>
+
+    <figure class="feature">
+  <img id="featuredImage" src="img/piece-01WM.jpg" alt="Featured artwork">
+</figure>
+
+  </section>
+
+  <section class="section">
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <div class="meta">3 works · 2020–2025</div>
+    </div>
+
+    <div class="grid">
+      <button class="tile" data-full="img/piece-01WM.jpg" data-meta="Moonlit Passage · Acrylic · 2025 · 24x30in">
+      <img src="img/piece-01WM.jpg" alt="Moonlit Passage">
+    </button>
+    <button class="tile" data-full="img/piece-02WM.jpg" data-meta="Dreaming in color · Acrylic 2020 · 36x48in">
+      <img src="img/piece-02WM.jpg" alt="Dreaming in color">
+    </button>
+    <button class="tile" data-full="img/piece-3WM.jpg" data-meta="Piney Hollow · Acrylic · 2025 · 24x30in">
+      <img src="img/piece-3WM.jpg" alt="Piney Hollow">
+    </button>
+    </div>
+
+   
+  </section>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Creative Mist Artistry</span>
+    <span>Instagram: @CreativeMist.Artistry</span>
+  </footer>
+</main>
+
+<!-- Lightbox -->
+<dialog class="lightbox" id="lightbox">
+  <button class="x" id="closeLightbox" aria-label="Close">✕</button>
+  <img id="lightboxImg" alt="" />
+  <div class="lb-meta" id="lightboxMeta"></div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
